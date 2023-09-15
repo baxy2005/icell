@@ -1,0 +1,456 @@
+{
+  "smc": {
+    "reference": {
+      "buttons": {
+        "outlined": {
+          "border": {
+            "focused": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-100}"
+            }
+          },
+          "bg": {
+            "disabled": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-20}"
+            },
+            "hovered": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-10}"
+            },
+            "focused": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-10}"
+            },
+            "pressed": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-20}"
+            }
+          },
+          "fg": {
+            "on-disable": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-40}"
+            }
+          }
+        },
+        "filled": {
+          "bg": {
+            "disabled": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-20}"
+            }
+          },
+          "border": {
+            "focused": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-100}"
+            }
+          },
+          "fg": {
+            "on-disable": {
+              "attributes": {
+                "category": "color"
+              },
+              "value": "{smc.colors.interface.darker-40}"
+            }
+          }
+        }
+      },
+      "Icons-nested": {
+        "spacious": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{smc.reference.Icon.lg}"
+        },
+        "comfortable": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{smc.reference.Icon.md}"
+        },
+        "compact": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{smc.reference.Icon.xs}"
+        }
+      },
+      "Icon": {
+        "xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.75}"
+        },
+        "lg": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.65}"
+        },
+        "md": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.55}"
+        },
+        "sm": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.50}"
+        },
+        "xs": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.40}"
+        },
+        "2xs": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.20}"
+        }
+      },
+      "Gap": {
+        "2xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.75}"
+        },
+        "md": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.40}"
+        },
+        "sm": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.25}"
+        },
+        "none": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": 0
+        },
+        "xs": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.15}"
+        },
+        "lg": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.55}"
+        },
+        "xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.65}"
+        },
+        "3xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.80}"
+        },
+        "4xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.90}"
+        }
+      },
+      "Radius": {
+        "2xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.80}"
+        },
+        "xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.65}"
+        },
+        "lg": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.40}"
+        },
+        "full": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.10000}"
+        },
+        "none": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": 0
+        },
+        "md": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.25}"
+        },
+        "2lg": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.35}"
+        },
+        "sm": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.15}"
+        }
+      },
+      "Padding": {
+        "4xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.100}"
+        },
+        "2md": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.50}"
+        },
+        "3xs": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.25}"
+        },
+        "lg": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.65}"
+        },
+        "2xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.80}"
+        },
+        "md": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.55}"
+        },
+        "xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.75}"
+        },
+        "3xl": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.90}"
+        },
+        "4xs": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.15}"
+        },
+        "xs": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.40}"
+        },
+        "2xs": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.30}"
+        },
+        "none": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": 0
+        }
+      },
+      "Sizing": {
+        "5": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.15}"
+        },
+        "10": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.25}"
+        },
+        "15": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.35}"
+        },
+        "20": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.40}"
+        },
+        "25": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.50}"
+        },
+        "30": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.55}"
+        },
+        "35": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.60}"
+        },
+        "40": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.65}"
+        },
+        "50": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.75}"
+        },
+        "60": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.80}"
+        },
+        "70": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.90}"
+        },
+        "80": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.100}"
+        },
+        "90": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.110}"
+        },
+        "100": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.120}"
+        },
+        "110": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.130}"
+        },
+        "120": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.140}"
+        },
+        "130": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": "{base.dimension.150}"
+        },
+        "none": {
+          "attributes": {
+            "type": "number"
+          },
+          "value": 0
+        }
+      },
+      "selectable": {
+        "color": {
+          "disabled": {
+            "fg": {
+              "default": {
+                "attributes": {
+                  "category": "color"
+                },
+                "value": "{smc.colors.interface.darker-40}"
+              }
+            },
+            "bg": {
+              "default": {
+                "attributes": {
+                  "category": "color"
+                },
+                "value": "{smc.colors.interface.darker-20}"
+              }
+            },
+            "border": {
+              "default": {
+                "attributes": {
+                  "category": "color"
+                },
+                "value": "{smc.colors.interface.darker-20}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
