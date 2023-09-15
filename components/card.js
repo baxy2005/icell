@@ -1,6 +1,9 @@
 import Divider from './divider'
 import Button from '../components/button';
 import { ArrowRightIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link';
+import Chip from '../components/chip'
+
 const posts = [
     {
       id: 1,
@@ -10,7 +13,7 @@ const posts = [
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
       imageUrl:
         '/images/blog/icell-blog-1@2x.jpg',
-      date: 'Mar 16, 2020',
+      date: '12 órája',
       datetime: '2020-03-16',
       category: { title: 'Marketing', href: '#' },
       author: {
@@ -29,7 +32,7 @@ const posts = [
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
           '/images/blog/icell-blog-2@2x.jpg',
-        date: 'Mar 16, 2020',
+        date: '5 órája',
         datetime: '2020-03-16',
         category: { title: 'Marketing', href: '#' },
         author: {
@@ -48,7 +51,7 @@ const posts = [
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
           '/images/blog/icell-blog-3@2x.jpg',
-        date: 'Mar 16, 2020',
+        date: '2 napja',
         datetime: '2020-03-16',
         category: { title: 'Marketing', href: '#' },
         author: {
@@ -76,32 +79,28 @@ const posts = [
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 items-start">
             {posts.map((post) => (
               <article key={post.id} className="flex flex-col items-start justify-between bg-gray-100 rounded-3xl overflow-hidden">
-                <div className="relative w-full">
-                  <img
-                    src={post.imageUrl}
-                    alt=""
-                    className="aspect-[16/9] w-full  bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[16/9]"
-                  />
+                <div className="relative w-full overflow-hidden">
+                  <img src={post.imageUrl} alt="" className="aspect-[16/9] w-full  bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[16/9] hover:scale-110 transition duration-500 cursor-pointer" />
+
                 </div>
                 <div className="max-w-xl p-6 flex flex-col gap-6">
                     <div className=" flex flex-col gap-4">
-                        <div className="flex items-center gap-x-4 text-xs">
-                            <time dateTime={post.datetime} className="text-gray-500">
-                            {post.date}
-                            </time>
-                            <a
-                            href={post.category.href}
-                            className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
-                            >
-                            {post.category.title}
-                            </a>
+                        <div className="flex items-center gap-x-2 text-xs">
+                            <Chip type="outlined" style="primaryOutlined" size="compact">
+                                <time dateTime={post.datetime} >
+                                    {post.date}
+                                </time>
+                            </Chip>
+                            <Chip type="outlined" style="secondaryOutlined" size="compact">
+                                <Link href={post.category.href}>{post.category.title}</Link>
+                            </Chip>
                         </div>
                         <div className="group relative">
-                            <h3 className="text-2xl leading-7 mb-2 font-medium leading-6 text-gray-900 group-hover:text-gray-600">
-                            <a href={post.href}>
+                            <h3 className="text-2xl leading-7 mb-2 font-medium text-gray-900 group-hover:text-gray-600">
+                            <Link href={post.href}>
                                 <span className="absolute inset-0" />
                                 {post.title}
-                            </a>
+                            </Link>
                             </h3>
                             <p className="line-clamp-3 text-sm leading-5 text-gray-600">{post.description}</p>
                         </div>
@@ -126,6 +125,9 @@ const posts = [
                 </div>
               </article>
             ))}
+          </div>
+          <div className="flex py-16 align-items justify-center">
+          <Button size="spacious" type="outlined" style="secondaryOutlined">Összes blogbejegyzés</Button>
           </div>
         </div>
       </div>

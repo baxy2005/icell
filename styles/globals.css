@@ -58,6 +58,7 @@ footer {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
 }
 
 .button-filled {
@@ -78,6 +79,17 @@ footer {
   background: var( --ids-comp-buttons-outlined-color-bg-primary-hovered) !important;
   border-color: var(--ids-comp-buttons-outlined-color-border-primary-hovered); 
 }
+.button-secondary-outlined {
+  background: none;
+  color: var(--ids-comp-buttons-outlined-color-fg-secondary-enabled);
+  border-color: var(--ids-comp-buttons-outlined-color-border-secondary-enabled);
+}
+.button-secondary-outlined:hover {
+  color: var(--ids-comp-buttons-outlined-color-fg-secondary-hovered);
+  background: var( --ids-comp-buttons-outlined-color-bg-secondary-hovered) !important;
+  border-color: var(--ids-comp-buttons-outlined-color-border-secondary-hovered); 
+}
+
 
 .button-primary {
   background: var( --ids-comp-buttons-filled-color-bg-primary-enabled);
@@ -102,4 +114,74 @@ footer {
   padding: var(--ids-comp-buttons-padding-y-spacious) var(--ids-comp-buttons-padding-x-spacious);
   height: var(  --ids-comp-buttons-height-spacious);
   border-radius: var(--ids-comp-buttons-border-radius-spacious);
+  font-size: 1.125rem;
+
+}
+
+
+
+.chip{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  
+}
+
+.chip-filled {
+  border: none;
+}
+.chip-outlined {
+  border: 1px solid ;
+  background: none;
+}
+
+.chip-primary-outlined {
+  background: none;
+  color: var(--ids-comp-chips-outlined-color-fg-primary-enabled);
+  border-color: var(--ids-comp-chips-outlined-color-border-primary-enabled);
+}
+.chip-primary-outlined:hover {
+  color: var(--ids-comp-chips-outlined-color-fg-primary-hovered);
+  background: var( --ids-comp-chips-outlined-color-bg-primary-hovered) !important;
+  border-color: var(--ids-comp-chips-outlined-color-border-primary-hovered); 
+  text-decoration: none !important;
+}
+
+.chip-secondary-outlined {
+  background: none;
+  color: var(--ids-comp-chips-outlined-color-fg-secondary-enabled);
+  border-color: var(--ids-comp-chips-outlined-color-border-secondary-enabled);
+}
+.chip-secondary-outlined:hover {
+  color: var(--ids-comp-chips-outlined-color-fg-secondary-hovered);
+  background: var( --ids-comp-chips-outlined-color-bg-secondary-hovered) !important;
+  border-color: var(--ids-comp-chips-outlined-color-border-secondary-hovered); 
+  text-decoration: none !important;
+}
+
+
+.chip-primary {
+  background: var( --ids-comp-chips-filled-color-bg-primary-enabled);
+  color: var(--ids-comp-chips-filled-color-fg-primary-on);
+}
+.chip-primary:hover {
+  color: var(--ids-comp-chips-filled-color-fg-primary-on);
+  background: var( --ids-comp-chips-filled-color-bg-primary-hovered ) !important;
+}
+
+.chip-compact {
+  padding: var(--ids-comp-chips-padding-y-compact) var(--ids-comp-chips-padding-x-compact);
+  height: var(  --ids-comp-chips-height-compact);
+  border-radius: var(--ids-comp-chips-border-radius-compact);
+}
+.chip-comfortable {
+  padding: var(--ids-comp-chips-padding-y-comfortable) var(--ids-comp-chips-padding-x-comfortable);
+  height: var(  --ids-comp-chips-height-comfortable);
+  border-radius: var(--ids-comp-chips-border-radius-comfortable);
+}
+.chip-spacious {
+  padding: var(--ids-comp-chips-padding-y-spacious) var(--ids-comp-chips-padding-x-spacious);
+  height: var(  --ids-comp-chips-height-spacious);
+  border-radius: var(--ids-comp-chips-border-radius-spacious);
 }

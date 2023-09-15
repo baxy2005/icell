@@ -4,6 +4,7 @@ import Card from '../components/card';
 import Card2 from '../components/card-2';
 import Button from '../components/button';
 
+
 export default function Home() {
   return (
     <>

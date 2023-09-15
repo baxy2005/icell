@@ -15,6 +15,7 @@ const types = {
 const styles = {
   primary: 'button-primary',
   primaryOutlined: 'button-primary-outlined',
+  secondaryOutlined: 'button-secondary-outlined',
 }
 
 
