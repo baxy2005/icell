@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <Hero/>
-    <section className="bg-gray-900">
+    <section className="bg-gray-900 services">
       <Card2/>
       </section>
       <section className="container px-4 sm:px-8">

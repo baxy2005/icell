@@ -1,5 +1,5 @@
 import Divider from './divider'
-
+import Image from 'next/image'
 const posts = [
     {
       id: 1,
@@ -87,12 +87,14 @@ const posts = [
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
-              <article key={post.id} className="flex flex-col items-start justify-between glassy-bg rounded-3xl ">
+              <article key={post.id} className="flex flex-col items-start justify-between glassy-bg card">
                 <div className="relative flex justify-center w-full pt-10">
-                  <img
+                  <Image
                     src={post.imageUrl}
                     alt=""
                     className=" w-24 h-24 object-cover"
+                    width={96}
+                    height={96}
                   />
                 </div>
                 <div className="max-w-xl p-6 pb-10 flex flex-col gap-6">

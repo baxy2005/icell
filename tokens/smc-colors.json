@@ -1,7 +1,363 @@
 {
   "smc": {
     "colors": {
+      "info": {
+        "lighter-40": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Blue.100}"
+        },
+        "darker-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Blue.700}"
+        },
+        "darker-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Blue.600}"
+        },
+        "default": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Blue.500}"
+        },
+        "lighter-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Blue.400}"
+        },
+        "lighter-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Blue.300}"
+        },
+        "lighter-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Blue.200}"
+        },
+        "darker-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Blue.800}"
+        }
+      },
+      "success": {
+        "lighter-40": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Green.100}"
+        },
+        "darker-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Green.800}"
+        },
+        "lighter-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Green.400}"
+        },
+        "lighter-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Green.300}"
+        },
+        "lighter-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Green.200}"
+        },
+        "default": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Green.500}"
+        },
+        "darker-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Green.700}"
+        },
+        "darker-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Green.600}"
+        }
+      },
+      "warning": {
+        "lighter-40": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Orange.100}"
+        },
+        "darker-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Orange.600}"
+        },
+        "default": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Orange.500}"
+        },
+        "lighter-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Orange.400}"
+        },
+        "lighter-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Orange.300}"
+        },
+        "darker-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Orange.800}"
+        },
+        "darker-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Orange.700}"
+        },
+        "lighter-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Orange.200}"
+        }
+      },
+      "error": {
+        "lighter-40": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Red.100}"
+        },
+        "darker-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Red.600}"
+        },
+        "default": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Red.500}"
+        },
+        "lighter-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Red.300}"
+        },
+        "darker-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Red.800}"
+        },
+        "lighter-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Red.200}"
+        },
+        "lighter-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Red.400}"
+        },
+        "darker-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Red.700}"
+        }
+      },
+      "brand": {
+        "lighter-40": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.100}"
+        },
+        "darker-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.700}"
+        },
+        "lighter-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.400}"
+        },
+        "darker-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.800}"
+        },
+        "default": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.500}"
+        },
+        "lighter-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.300}"
+        },
+        "lighter-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.200}"
+        },
+        "darker-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.600}"
+        }
+      },
+      "secondary": {
+        "lighter-40": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.100}"
+        },
+        "lighter-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.400}"
+        },
+        "lighter-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.200}"
+        },
+        "lighter-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.300}"
+        },
+        "darker-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.700}"
+        },
+        "darker-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.600}"
+        },
+        "default": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.500}"
+        },
+        "darker-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.800}"
+        }
+      },
+      "primary": {
+        "lighter-40": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.100}"
+        },
+        "lighter-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.400}"
+        },
+        "lighter-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.200}"
+        },
+        "lighter-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.300}"
+        },
+        "darker-30": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.800}"
+        },
+        "darker-10": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.600}"
+        },
+        "darker-20": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.700}"
+        },
+        "default": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Custom.500}"
+        }
+      },
       "interface": {
+        "darker-95": {
+          "attributes": {
+            "category": "color"
+          },
+          "value": "{base.color.Slate.950}"
+        },
         "on-inverse-darker-10": {
           "attributes": {
             "category": "color"
@@ -97,314 +453,6 @@
             "category": "color"
           },
           "value": "{base.color.Slate.800}"
-        }
-      },
-      "info": {
-        "darker-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Blue.700}"
-        },
-        "darker-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Blue.600}"
-        },
-        "default": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Blue.500}"
-        },
-        "lighter-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Blue.400}"
-        },
-        "lighter-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Blue.300}"
-        },
-        "lighter-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Blue.200}"
-        },
-        "darker-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Blue.800}"
-        }
-      },
-      "warning": {
-        "darker-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Orange.600}"
-        },
-        "default": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Orange.500}"
-        },
-        "lighter-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Orange.400}"
-        },
-        "lighter-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Orange.300}"
-        },
-        "darker-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Orange.800}"
-        },
-        "darker-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Orange.700}"
-        },
-        "lighter-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Orange.200}"
-        }
-      },
-      "secondary": {
-        "lighter-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Slate.400}"
-        },
-        "lighter-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Slate.200}"
-        },
-        "lighter-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Slate.300}"
-        },
-        "darker-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Slate.700}"
-        },
-        "darker-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Slate.600}"
-        },
-        "default": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Slate.500}"
-        },
-        "darker-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Slate.800}"
-        }
-      },
-      "success": {
-        "darker-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Green.800}"
-        },
-        "lighter-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Green.400}"
-        },
-        "lighter-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Green.300}"
-        },
-        "lighter-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Green.200}"
-        },
-        "default": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Green.500}"
-        },
-        "darker-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Green.700}"
-        },
-        "darker-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Green.600}"
-        }
-      },
-      "error": {
-        "darker-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Red.600}"
-        },
-        "default": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Red.500}"
-        },
-        "lighter-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Red.300}"
-        },
-        "darker-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Red.800}"
-        },
-        "lighter-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Red.200}"
-        },
-        "lighter-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Red.400}"
-        },
-        "darker-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Red.700}"
-        }
-      },
-      "primary": {
-        "lighter-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.400}"
-        },
-        "lighter-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.200}"
-        },
-        "lighter-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.300}"
-        },
-        "darker-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.800}"
-        },
-        "darker-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.600}"
-        },
-        "darker-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.700}"
-        },
-        "default": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.500}"
-        }
-      },
-      "brand": {
-        "darker-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.700}"
-        },
-        "lighter-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.400}"
-        },
-        "darker-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.800}"
-        },
-        "default": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.500}"
-        },
-        "lighter-20": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.300}"
-        },
-        "lighter-30": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.200}"
-        },
-        "darker-10": {
-          "attributes": {
-            "category": "color"
-          },
-          "value": "{base.color.Custom.600}"
         }
       }
     }

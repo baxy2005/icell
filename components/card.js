@@ -3,6 +3,7 @@ import Button from '../components/button';
 import { ArrowRightIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link';
 import Chip from '../components/chip'
+import Image from 'next/image';
 
 const posts = [
     {
@@ -69,7 +70,7 @@ const posts = [
     return (
       <div className="bg-white py-6 sm:py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl flex justify-center flex-col items-center text-center">
+          <div className="mx-auto max-w-2xl flex justify-center flex-col items-center text-center mb-16">
             <h2 className="text-3xl mb-4 font-bold text-gray-900 sm:text-4xl uppercase">Blogunk</h2>
             <Divider />
             <p className="mt-4 text-lg leading-8 text-gray-600">
@@ -78,12 +79,11 @@ const posts = [
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 items-start">
             {posts.map((post) => (
-              <article key={post.id} className="flex flex-col items-start justify-between bg-gray-100 rounded-3xl overflow-hidden">
+              <article key={post.id} className="flex flex-col items-start justify-between card-filled-interface card overflow-hidden">
                 <div className="relative w-full overflow-hidden">
-                  <img src={post.imageUrl} alt="" className="aspect-[16/9] w-full  bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[16/9] hover:scale-110 transition duration-500 cursor-pointer" />
-
+                  <Image src={post.imageUrl} alt="" width={768} height={376} className="aspect-[16/9] w-full  bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[16/9] hover:scale-110 transition duration-500 cursor-pointer" />
                 </div>
-                <div className="max-w-xl p-6 flex flex-col gap-6">
+                <div className="max-w-xl flex flex-col gap-6 card-body-footer-container">
                     <div className=" flex flex-col gap-4">
                         <div className="flex items-center gap-x-2 text-xs">
                             <Chip type="outlined" style="primaryOutlined" size="compact">
@@ -126,7 +126,7 @@ const posts = [
               </article>
             ))}
           </div>
-          <div className="flex py-16 align-items justify-center">
+          <div className="flex pt-16 align-items justify-center">
           <Button size="spacious" type="outlined" style="secondaryOutlined">Összes blogbejegyzés</Button>
           </div>
         </div>

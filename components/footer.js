@@ -133,7 +133,7 @@ const navigation = {
               </div>
             </div>
             <div className="mt-16 gap-8 xl:col-span-9 xl:mt-[117px] relative">
-                <div className="footer-glassy-bg z-10 p-14">
+                <div className="footer-glassy-bg card z-10 p-14">
                     <div className="md:grid md:grid-cols-3 md:gap-8">
                         <div>
                         <h3 className="text-base font-semibold leading-6 text-white mb-2">Szolgáltatásaink</h3>

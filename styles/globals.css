@@ -46,12 +46,17 @@ footer {
   background-repeat: no-repeat;
 
 }
+.services {
+  background-image: url('/images/icell-circle-orange.svg'), url('/images/icell-circle-blue.svg');
+  background-position: 120% -100px, -10% 125%;
+  background-repeat: no-repeat;
+
+}
+
 .glassy-bg {
-  border-radius: 2rem;
   background: rgba(255, 255, 255, 0.06);
   box-shadow: 0px 2.26765px 2.26765px 0px rgba(255, 255, 255, 0.15) inset, 0px 0px 34.01478px 0px rgba(255, 255, 255, 0.05) inset;
   backdrop-filter: blur(36.36111068725586px);
-
 }
 
 .btn {
@@ -184,4 +189,39 @@ footer {
   padding: var(--ids-comp-chips-padding-y-spacious) var(--ids-comp-chips-padding-x-spacious);
   height: var(  --ids-comp-chips-height-spacious);
   border-radius: var(--ids-comp-chips-border-radius-spacious);
+}
+
+.card {
+border-radius: var(--ids-comp-cards-border-radius-spacious);
+  
+}
+
+
+.card-filled-interface {
+  background-color: var(--ids-comp-cards-filled-color-bg-interface-enabled);
+}
+.card-filled-interface:hover {
+  background-color: var(--ids-comp-cards-filled-color-bg-interface-hovered);
+}
+.card-body-footer-container {
+  padding: var(--ids-comp-cards-padding-x-comfortable) var(--ids-comp-cards-padding-y-comfortable);
+  gap: var(--ids-comp-cards-gap-comfortable)
+}
+
+
+.menu-item {
+
+  padding: var(--ids-comp-menu-item-padding-x) var(--ids-comp-menu-item-padding-y);
+  border-radius: var(  --ids-comp-menu-item-border-radius);
+  color: var(--ids-comp-menu-item-color-fg-enabled);
+  gap: var( --ids-comp-menu-item-gap)
+}
+.menu-item-active {
+  background-color: var(  --ids-comp-menu-item-color-bg-active);
+  color: var(  --ids-comp-menu-item-color-fg-active);
+}
+.menu-item:hover {
+  background-color: var(  --ids-comp-menu-item-color-bg-hovered);
+  color: var(  --ids-comp-menu-item-color-fg-hovered);
+
 }
